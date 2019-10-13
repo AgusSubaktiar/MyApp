@@ -18,20 +18,20 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Tambahkan Topping"
+            android:text="Pilih Jenis kopi"
             android:textSize="25dp"/>
         <CheckBox
             android:id="@+id/WhippedCream_checkbox"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Krim"
+            android:text="Arabika"
             android:paddingLeft="16dp"
             android:textSize="15sp"/>
         <CheckBox
             android:id="@+id/Chocolate_checkbox"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Coklat"
+            android:text="Robusta"
             android:paddingLeft="16dp"
             android:textSize="15sp"/>
 

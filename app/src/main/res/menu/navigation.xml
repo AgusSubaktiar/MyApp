@@ -5,6 +5,6 @@
         android:icon="@drawable/info" />
     <item android:id="@+id/action_movie"
         android:title="Kopi"
-        android:icon="@drawable/kopi" />
+        android:icon="@drawable/java" />
 
 </menu>

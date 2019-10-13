@@ -86,8 +86,8 @@ public class MainActivity extends AppCompatActivity {
     }
     private String createOrderSummary(int price, String name, boolean addChocolate, boolean addWhippedCream) {//hasil pemesanan
         String pricemessage=" Nama = "+name;
-        pricemessage+="\n Tambahkan Coklat =" +addWhippedCream;
-        pricemessage+="\n Tambahkan Krim =" +addChocolate;
+        pricemessage+="\n Robusta =" +addWhippedCream;
+        pricemessage+="\n Arabika =" +addChocolate;
         pricemessage+="\n Jumlah Pemesanan =" +quantity;
         pricemessage+="\n Total = Rp " +price;
         pricemessage+="\n Terimakasih";
@@ -109,7 +109,3 @@ public class MainActivity extends AppCompatActivity {
     }
 
 }
-
-
-
-
