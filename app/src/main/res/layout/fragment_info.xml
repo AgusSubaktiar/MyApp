@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.InfoFragment">
+
+    <ImageView
+        android:id="@+id/kopi"
+        android:layout_width="290dp"
+        android:layout_height="232dp"
+        android:src="@drawable/kopi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="Selamat datang di Loods coffe"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kopi" />
+
+    <TextView
+        android:id="@+id/arti_kopi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="“Hidup itu seperti secangkir kopi kadang terasa manis dan kadang ada juga yang terasa pahit.”  “Jalanilah kehidupan seperti menikmati secangkir kopi, minumlah secara perlahan dan nikmatilah semua yang dapat di nikmati, maka kau akan mengetahui apa yang sedang terjadi.”  “Kopi itu terbagi kedalam dua macam yaitu, kopi dengan kualitas baik (kopi arabika) dan kopi dengan kualitas sedang (kopi robusta) begitu juga dengan hidup ini ada orang yang menjalaninya dengan baik dan ada juga orang yang menjalaninya dengan biasa-biasa saja, tinggal kita mau memilih yang mana.”"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/welcome"
+        app:layout_constraintVertical_bias="0.062" />
+</androidx.constraintlayout.widget.ConstraintLayout>
